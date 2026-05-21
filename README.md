@@ -13,22 +13,12 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ## Deploy
 
-Cloudflare Pages builds automatically from the `main` branch using:
+Pushing to `main` triggers an automatic Cloudflare Pages build via the GitHub integration.
 
-- **Build command:** `npm run deploy`
-- **Output directory:** `.open-next/assets`
+- **Build command:** `next build`
+- **Output directory:** `out`
 
-To build locally for Cloudflare:
-
-```bash
-npm run deploy
-```
-
-To preview the Cloudflare build locally:
-
-```bash
-npx wrangler pages dev
-```
+The site uses `output: 'export'` in `next.config.ts`, so `next build` produces a fully static site in `out/` — no server runtime or Worker needed.
 
 ## Infrastructure
 
