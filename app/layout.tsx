@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import Link from "next/link";
 import "./globals.css";
+import FaroInit from "./components/FaroInit";
 
 const geist = Geist({
   variable: "--font-geist-sans",
@@ -59,6 +60,7 @@ export default function RootLayout({
           </nav>
         </header>
 
+        <FaroInit />
         <main className="flex-1">{children}</main>
 
         <footer className="border-t border-neutral-800">
