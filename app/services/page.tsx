@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Services — Ben Drolet",
+  title: "LLM Platform Engineering & Internal AI Developer Platforms — drolet.ai",
   description:
-    "LLM platform engineering and internal AI developer platforms for healthcare teams.",
+    "LLM platform engineering and internal AI developer platforms for healthcare. Model routing, evaluation pipelines, LLM observability, AI guardrails, and HIPAA-compliant deployment.",
 };
 
 export default function Services() {

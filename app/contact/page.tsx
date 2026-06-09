@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import ContactForm from "./ContactForm";
 
 export const metadata: Metadata = {
-  title: "Contact — Ben Drolet",
-  description: "Get in touch about AI infrastructure consulting for healthcare.",
+  title: "Contact — drolet.ai",
+  description:
+    "Working on AI infrastructure in healthcare? Get in touch to talk through what you're building.",
 };
 
 export default function Contact() {

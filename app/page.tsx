@@ -37,14 +37,15 @@ export default function Home() {
             isn&apos;t.
           </p>
           <p>
-            LLM deployments break without the right abstractions. Engineers
-            rebuild the same tooling on every project. Regulated environments
-            add constraints that generic cloud architectures don&apos;t handle
-            well.
+            Taking an AI pilot to production in healthcare is harder than it
+            looks. LLM deployments break without the right abstractions.
+            Engineers rebuild the same tooling on every project. HIPAA and
+            regulatory constraints add requirements that generic AI architectures
+            don&apos;t handle.
           </p>
           <p>
-            Getting this right early determines whether your AI program ships or
-            stalls.
+            Getting the infrastructure right early determines whether your AI
+            program ships or stalls.
           </p>
         </div>
       </section>
@@ -63,8 +64,9 @@ export default function Home() {
             </h3>
             <p className="text-neutral-400 leading-relaxed">
               Design and build the infrastructure for LLM-powered applications —
-              model routing, prompt management, evaluation pipelines,
-              observability, and deployment systems that survive model upgrades.
+              model routing, prompt management, evaluation pipelines, LLM
+              observability, hallucination detection, and deployment systems that
+              survive model upgrades.
             </p>
           </div>
           <div>
@@ -74,8 +76,8 @@ export default function Home() {
             <p className="text-neutral-400 leading-relaxed">
               Build the tooling and abstractions that let product engineers use
               AI without becoming AI infra engineers — shared components,
-              standardized access patterns, and the guardrails that matter in
-              healthcare.
+              standardized access patterns, AI guardrails, and the
+              HIPAA-compliance layer that healthcare requires.
             </p>
           </div>
         </div>
@@ -98,10 +100,12 @@ export default function Home() {
         </h2>
         <div className="space-y-4 text-neutral-300 leading-relaxed">
           <p>
-            16 years as a backend software engineer. Most of that time in
-            healthcare. Recently focused on the infrastructure side of AI —
-            building the platforms, pipelines, and internal tooling that
-            production AI applications run on.
+            16 years as a backend software engineer. For the past 4 years,
+            focused on healthcare — behavioral health, digital health, and health
+            tech — where the infrastructure problems are harder and the cost of
+            getting it wrong is higher. Recently focused on the infrastructure
+            side of AI — building the LLM platforms, evaluation pipelines, and
+            internal developer tooling that production AI applications run on.
           </p>
           <p>
             I work with healthcare engineering teams that have serious AI

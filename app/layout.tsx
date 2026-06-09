@@ -11,7 +11,19 @@ const geist = Geist({
 export const metadata: Metadata = {
   title: "Ben Drolet — AI Infrastructure Engineering for Healthcare",
   description:
-    "I help healthcare companies build the LLM platforms and internal AI tooling their engineers need to ship production AI products safely.",
+    "AI infrastructure engineering for healthcare teams building with LLMs. LLM platform engineering, internal AI developer platforms, and HIPAA-compliant AI infrastructure.",
+  keywords: [
+    "AI infrastructure engineering",
+    "LLM platform engineering",
+    "healthcare AI infrastructure",
+    "internal AI developer platform",
+    "production AI for healthcare",
+    "HIPAA-compliant AI",
+    "healthcare LLM deployment",
+    "LLM observability",
+    "behavioral health AI",
+    "AI platform consulting",
+  ],
 };
 
 export default function RootLayout({

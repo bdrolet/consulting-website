@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "About — Ben Drolet",
+  title: "About Ben Drolet — Healthcare AI Infrastructure Consultant",
   description:
-    "16 years as a backend engineer in healthcare, now focused on LLM infrastructure.",
+    "16 years backend engineering, 4+ years in healthcare AI infrastructure. Fractional AI infrastructure engineer for behavioral health and digital health teams building production AI.",
 };
 
 export default function About() {
@@ -16,9 +16,12 @@ export default function About() {
 
       <div className="space-y-6 text-neutral-300 leading-relaxed">
         <p>
-          16 years as a backend software engineer. Most of that time in
-          healthcare. Recently focused on the infrastructure side of AI —
-          building the platforms, pipelines, and internal tooling that
+          16 years as a backend software engineer. For the past 4 years,
+          focused on healthcare — behavioral health, digital health, and health
+          tech — where the infrastructure problems are harder, the compliance
+          requirements are real, and the cost of getting it wrong is higher.
+          Recently focused on the infrastructure side of AI — building the LLM
+          platforms, evaluation pipelines, and internal developer tooling that
           production AI applications run on.
         </p>
         <p>
