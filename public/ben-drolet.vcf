@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Drolet;Ben;;;
+FN:Ben Drolet
+TITLE:AI Infrastructure Engineering for Healthcare
+TEL;TYPE=CELL,VOICE:+1-415-689-8767
+EMAIL;TYPE=INTERNET,WORK:ben@drolet.ai
+item1.URL:https://drolet.ai
+item1.X-ABLabel:Website
+item2.URL:https://www.linkedin.com/in/benjamindrolet/
+item2.X-ABLabel:LinkedIn
+ADR;TYPE=WORK:;;;San Francisco;CA;;United States
+END:VCARD
