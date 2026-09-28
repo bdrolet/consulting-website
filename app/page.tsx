@@ -9,11 +9,14 @@ export default function Home() {
           Ben Drolet
         </h1>
         <p className="text-lg md:text-xl text-neutral-400 mb-6">
-          AI infrastructure engineering for healthcare
+          I help healthcare startups take AI from pilot to production,
+          compliantly.
         </p>
         <p className="text-base leading-relaxed text-neutral-300 mb-10 max-w-prose">
-          I help healthcare companies build the LLM platforms and internal AI
-          tooling their engineers need to ship production AI products safely.
+          I help healthcare startups get their AI out of pilot and into
+          production, on HIPAA-ready infrastructure with real evals and
+          observability, so their engineers can ship AI features safely and
+          fast.
         </p>
         <Link
           href="/contact"
