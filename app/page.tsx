@@ -96,6 +96,65 @@ export default function Home() {
 
       <hr className="border-neutral-800" />
 
+      {/* Selected Work */}
+      <section className="py-16 md:py-20">
+        <h2 className="text-xs font-medium uppercase tracking-widest text-neutral-500 mb-8">
+          Selected Work
+        </h2>
+        <h3 className="text-base font-medium text-neutral-100 mb-1">
+          From duct tape to a production AI platform
+        </h3>
+        <p className="text-sm text-neutral-500 mb-6">
+          Remote-care healthcare company
+        </p>
+        <div className="space-y-5 text-neutral-400 leading-relaxed">
+          <p>
+            The AI pilots worked, but nobody could trust them in production.
+            Prompts were hard-coded into services, evals were done by hand, and
+            there was no single place to enforce PHI handling or see what was
+            failing.
+          </p>
+          <p>I led the platform build:</p>
+        </div>
+        <ul className="mt-4 space-y-2 text-sm text-neutral-500">
+          <li className="flex items-start gap-2">
+            <span className="text-neutral-700 mt-0.5">—</span>
+            A central prompt service with versioning and tracing
+          </li>
+          <li className="flex items-start gap-2">
+            <span className="text-neutral-700 mt-0.5">—</span>
+            An evaluation pipeline that catches regressions before a prompt or
+            model change ships
+          </li>
+          <li className="flex items-start gap-2">
+            <span className="text-neutral-700 mt-0.5">—</span>
+            One path for every model call, so access control, PHI boundaries,
+            audit logging, and model routing live in one place
+          </li>
+          <li className="flex items-start gap-2">
+            <span className="text-neutral-700 mt-0.5">—</span>
+            AWS infrastructure in Terraform, with dashboards and alerting on
+            failure rates, fallbacks, and latency
+          </li>
+        </ul>
+        <div className="mt-6 space-y-5 text-neutral-400 leading-relaxed">
+          <p>
+            A monitored pilot was running within two weeks. Changes that used
+            to take days took hours: when a product manager asked one morning to
+            add a patient&apos;s heart-failure risk to a prompt&apos;s output,
+            it was live in production after lunch, through CI and approvals,
+            with PHI flowing through it compliantly.
+          </p>
+          <p>
+            The same platform went on to carry a per-patient snapshot, then a
+            clinician chat agent that answers questions about a patient&apos;s
+            history from charts, specialist-visit transcripts, and lab results.
+          </p>
+        </div>
+      </section>
+
+      <hr className="border-neutral-800" />
+
       {/* About */}
       <section className="py-16 md:py-20">
         <h2 className="text-xs font-medium uppercase tracking-widest text-neutral-500 mb-6">
