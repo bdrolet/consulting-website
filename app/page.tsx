@@ -151,6 +151,14 @@ export default function Home() {
             history from charts, specialist-visit transcripts, and lab results.
           </p>
         </div>
+        <div className="mt-8">
+          <a
+            href="https://blog.drolet.ai/build-a-ship-not-inner-tubes/"
+            className="text-sm text-neutral-400 hover:text-neutral-200 transition-colors"
+          >
+            Read the full story →
+          </a>
+        </div>
       </section>
 
       <hr className="border-neutral-800" />
