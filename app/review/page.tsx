@@ -4,6 +4,15 @@ export const metadata: Metadata = {
   title: "Production-Readiness Review for Healthcare AI Teams — drolet.ai",
   description:
     "A clinic or health system wants your AI feature, and their security review is coming. In one week, read-only and free, I'll tell you what it will find and what to fix first, in a report you can hand them.",
+  // Overrides the site-wide keywords so this page carries the founder's vocabulary.
+  keywords: [
+    "health system security review",
+    "healthcare AI vendor questionnaire",
+    "BAA chain",
+    "PHI data flow",
+    "LLM feature production readiness",
+    "healthcare startup security review",
+  ],
 };
 
 const MAILTO = "mailto:ben@drolet.ai?subject=Review";
