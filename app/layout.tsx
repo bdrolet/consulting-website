@@ -39,11 +39,11 @@ export default function RootLayout({
           <nav className="max-w-2xl mx-auto px-6 py-5 flex items-center justify-between">
             <Link
               href="/"
-              className="text-sm font-medium text-neutral-100 hover:text-white transition-colors"
+              className="text-sm font-medium text-neutral-100 hover:text-white transition-colors whitespace-nowrap"
             >
               Ben Drolet
             </Link>
-            <div className="flex items-center gap-6 text-sm text-neutral-400">
+            <div className="flex items-center gap-4 sm:gap-6 text-sm text-neutral-400">
               <Link href="/review" className="hover:text-neutral-100 transition-colors">
                 Review
               </Link>

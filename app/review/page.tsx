@@ -47,12 +47,16 @@ function SectionLabel({ children }: { children: React.ReactNode }) {
   );
 }
 
+// Cloudflare's email obfuscation rewrites any address it finds in the HTML to
+// "[email protected]" plus a JS-decoded href. On this page the address is the
+// ask, so the button is wrapped in Cloudflare's own opt-out comments, which JSX
+// cannot emit directly.
+const EMAIL_BUTTON_HTML =
+  `<!--email_off--><a href="${MAILTO}" class="${BUTTON_CLASS}">` +
+  `Email ben@drolet.ai with &quot;Review&quot; in the subject →</a><!--/email_off-->`;
+
 function EmailButton() {
-  return (
-    <a href={MAILTO} className={BUTTON_CLASS}>
-      Email ben@drolet.ai with &quot;Review&quot; in the subject →
-    </a>
-  );
+  return <span dangerouslySetInnerHTML={{ __html: EMAIL_BUTTON_HTML }} />;
 }
 
 export default function Review() {
