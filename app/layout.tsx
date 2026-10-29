@@ -44,6 +44,9 @@ export default function RootLayout({
               Ben Drolet
             </Link>
             <div className="flex items-center gap-6 text-sm text-neutral-400">
+              <Link href="/review" className="hover:text-neutral-100 transition-colors">
+                Review
+              </Link>
               <Link href="/services" className="hover:text-neutral-100 transition-colors">
                 Services
               </Link>

@@ -18,12 +18,20 @@ export default function Home() {
           observability, so their engineers can ship AI features safely and
           fast.
         </p>
-        <Link
-          href="/contact"
-          className="inline-flex items-center gap-1 text-sm text-neutral-100 border border-neutral-700 rounded px-4 py-2.5 hover:border-neutral-500 hover:bg-neutral-900 transition-colors"
-        >
-          Get in touch →
-        </Link>
+        <div className="flex flex-wrap items-center gap-x-6 gap-y-3">
+          <Link
+            href="/contact"
+            className="inline-flex items-center gap-1 text-sm text-neutral-100 border border-neutral-700 rounded px-4 py-2.5 hover:border-neutral-500 hover:bg-neutral-900 transition-colors"
+          >
+            Get in touch →
+          </Link>
+          <Link
+            href="/review"
+            className="text-sm text-neutral-400 hover:text-neutral-100 transition-colors"
+          >
+            Free Production-Readiness Review →
+          </Link>
+        </div>
       </section>
 
       <hr className="border-neutral-800" />
